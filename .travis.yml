@@ -10,3 +10,4 @@ install:
 
 script:
   - yarn build
+  - yarn deploy
