@@ -8,11 +8,11 @@
     "url": "git+ssh://git@github.com/marcusasplund/hyperapp-todo-parcel.git"
   },
   "scripts": {
-    "start": "standard && parcel ./src/index.html -p 3000 --open",
-    "build": "standard && parcel build ./src/index.html -d build --public-url ./ && workbox generate:sw",
-    "deploy": "parcel build ./src/index.html --out-dir docs/ --public-url ./docs && workbox generate:sw"
+    "start": "standard && parcel src/index.html -p 3000 --open",
+    "build": "standard && parcel build src/index.html -d build --public-url ./ && workbox generate:sw",
+    "deploy": "parcel build ./src/index.html --out-dir build/ --public-url ./build && workbox generate:sw && cp ./build/index.html ./index.html"
   },
-  "version": "0.0.2",
+  "version": "0.0.1",
   "author": "Marcus Asplund <marcus@greatname.se> (@marcusasplund)",
   "bugs": {
     "url": "https://github.com/marcusasplund/hyperapp-todo-parcel/issues"
