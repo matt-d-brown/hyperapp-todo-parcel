@@ -24,11 +24,11 @@ const fileManifest = [
   },
   {
     "url": "hyperapp-todo-parcel.js",
-    "revision": "d9362e66a4e4b60d595b67fd7f46b7b0"
+    "revision": "27b6325a171875ffcf4c605b0bc6b06b"
   },
   {
     "url": "index.html",
-    "revision": "2fd57cce5f95a813cf13c5d57873b24f"
+    "revision": "3e79d18ece80dbcc55775272a2b028e8"
   }
 ];
 
